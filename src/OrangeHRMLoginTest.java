@@ -52,7 +52,8 @@ public class OrangeHRMLoginTest {
             
             Thread.sleep(1000);
             
-            driver.findElement(By.xpath("//a[text()='Logout']")).click();
+           // driver.findElement(By.xpath("//a[text()='Logout']")).click();
+            driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/ul/li[4]/a")).click();
 
         } catch (Exception e) {
             e.printStackTrace();
